@@ -1,7 +1,7 @@
 package week1;
 import java.util.Scanner;
 
-public class kdv_hesaplama {
+public class KdvHesaplama {
     public static void main(String[] args) {
         //kullanıcıdan hesaplanacak olan fiyatı isteme
         int fiyat;

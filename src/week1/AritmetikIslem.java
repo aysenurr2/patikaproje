@@ -1,7 +1,7 @@
 package week1;
 import java.util.Scanner;
 
-public class aritmetik_islem_onceligi {
+public class AritmetikIslem {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         int a, b ,c ;

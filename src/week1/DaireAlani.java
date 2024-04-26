@@ -1,7 +1,7 @@
 package week1;
 import java.util.Scanner;
 
-public class daire_alan_cevre {
+public class DaireAlani {
     public static void main(String[] args) {
         int r,teta;
         final double pi = 3.14;

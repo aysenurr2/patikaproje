@@ -1,7 +1,7 @@
 package week1;
 import java.util.Scanner;
 
-public class ucgenalani {
+public class UcgenAlani {
     public static void main(String[] args) {
         int a, b ,c ;
         Scanner inp = new Scanner(System.in);

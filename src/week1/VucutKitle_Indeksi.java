@@ -1,7 +1,7 @@
 package week1;
 import java.util.Scanner;
 
-public class vucut_kitle_indeksi {
+public class VucutKitle_Indeksi {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         double boy, kilo, kitleIndeksi;

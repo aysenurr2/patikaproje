@@ -1,7 +1,7 @@
 package week1;
 import java.util.Scanner;
 
-public class taksimetre {
+public class Taksimetre {
     public static void main(String[] args) {
     int km;
     double perKm = 2.20, total, startPrice = 10;

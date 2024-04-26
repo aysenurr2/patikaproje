@@ -1,7 +1,7 @@
 package week1;
 import java.util.Scanner;
 
-public class manav_kasa {
+public class ManavKasa {
     public static void main(String[] args) {
      Scanner inp = new Scanner(System.in);
      int a, e, d, m, p;
