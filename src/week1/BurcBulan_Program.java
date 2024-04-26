@@ -6,6 +6,7 @@ public class BurcBulan_Program {
     public static void main(String[] args) {
         int month, day;
 
+
         Scanner inp = new Scanner(System.in);
         System.out.println("Doğduğunuz Ayı Giriniz : ");
         month = inp.nextInt();
