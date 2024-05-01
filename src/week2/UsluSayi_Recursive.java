@@ -20,7 +20,7 @@ public class UsluSayi_Recursive {
         if (k == 0) {
             return 1;
         } else {
-            // n^k = n * n^(k-1) formülü uygulanarak rekürsif olarak hesaplama yapılır
+            // n^k = n * n^(k-1) formülü uygulanarak recursive olarak hesaplama yapılır
             return n * usHesaplama(n, k - 1);
         }
     }
