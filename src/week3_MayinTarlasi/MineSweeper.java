@@ -9,7 +9,7 @@ public class MineSweeper {
     private char[][] board;
     private char[][] hiddenBoard;
     private boolean[][] revealed;
-    private boolean isFirstMove = true; // Yeni değişken
+    private boolean isFirstMove = true;
 
     public static void main(String[] args) {
         MineSweeper game = new MineSweeper();
@@ -56,7 +56,7 @@ public class MineSweeper {
                 minesPlaced++;
             }
         }
-        // Mayınların Konumu çıktısını göster
+        // Mayınların Konumunu gösterir
         System.out.println("Mayınların Konumu:");
         printHiddenBoard();
     }
@@ -64,7 +64,7 @@ public class MineSweeper {
     public void playGame() {
         Scanner inp = new Scanner(System.in);
         while (true) {
-            if (isFirstMove) { // İlk hamlede sadece bir kere hoşgeldiniz mesajını yazdır
+            if (isFirstMove) { // İlk hamlede sadece bir kere hoşgeldiniz mesajını yazdırır
                 System.out.println("Mayın Tarlası Oyununa Hoşgeldiniz !");
                 isFirstMove = false;
             }
@@ -94,7 +94,6 @@ public class MineSweeper {
     }
 
     public void printBoard() {
-        // Oyun tahtasını yazdırırken artık hoşgeldiniz mesajını buraya almıyoruz
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (revealed[i][j]) {
