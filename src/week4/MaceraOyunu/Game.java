@@ -57,6 +57,8 @@ public class Game {
             }
 
 
+
+
             if (location == null) {
                 System.out.println(" Oyundan Çıkış Yaptınız :( Yine bekleriz. ");
                 break;

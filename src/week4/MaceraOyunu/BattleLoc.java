@@ -131,4 +131,5 @@ public abstract class BattleLoc extends Location{
         this.maxMonster = maxMonster;
     }
 
+
 }

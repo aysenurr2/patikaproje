@@ -1,6 +1,5 @@
 package week4.MaceraOyunu;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Player {
@@ -15,11 +14,12 @@ public class Player {
     private Inventory inventory;
 
 
-
     public Player(String name){
         this.name = name;
         this.inventory = new Inventory();
     }
+
+
 
     public void selectChar(){
 
@@ -74,6 +74,7 @@ public class Player {
                 ", Sağlık : " + this.getHealthy() +
                 ", Para : " + getMoney());
     }
+
 
     public int getTotalDamage(){
         return damage + this.getInventory().getWeapon().getDamage();
