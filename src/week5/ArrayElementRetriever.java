@@ -1,5 +1,7 @@
 package week5;
 
+import java.util.Scanner;
+
 public class ArrayElementRetriever {
     private static int[] myArray = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
 
@@ -16,8 +18,15 @@ public class ArrayElementRetriever {
     }
 
     public static void main(String[] args) {
-        // Test case
-        System.out.println(getElementAtIndex(3));
-        System.out.println(getElementAtIndex(10));
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user to enter an index
+        System.out.print("Please enter an index: ");
+        int index = scanner.nextInt();
+
+        // Call the method and print the result
+        System.out.println(getElementAtIndex(index));
+
+        scanner.close();
     }
 }
